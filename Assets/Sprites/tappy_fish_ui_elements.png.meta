@@ -570,11 +570,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Background1
+      name: ground
       rect:
         serializedVersion: 2
         x: 47
-        y: 76
+        y: 72
         width: 1042
         height: 342
       alignment: 0
@@ -706,7 +706,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Background1: 1327977602
       Fis: 188052536
       Fish: 345682447
       Fish1: -1082001586
@@ -722,6 +721,7 @@ TextureImporter:
       bronze: 170502823
       click: -579692943
       gold: 705042945
+      ground: 1327977602
       iron: 91526635
       left-tap: 1870167940
       new: -1370383101
