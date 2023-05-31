@@ -654,12 +654,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Game
+      name: GameOver
       rect:
         serializedVersion: 2
         x: 1567
         y: 71
-        width: 237
+        width: 502
         height: 85
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -670,27 +670,6 @@ TextureImporter:
       bones: []
       spriteID: 7e9fa5c0f48f96b49b74f059d4d4d800
       internalID: 1462416500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Over
-      rect:
-        serializedVersion: 2
-        x: 1808
-        y: 71
-        width: 258
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 995da57cdceb8d04cbd48fa28da66655
-      internalID: 1468465052
       vertices: []
       indices: 
       edges: []
@@ -710,7 +689,7 @@ TextureImporter:
       Fish: 345682447
       Fish1: -1082001586
       Fish2: 1760763178
-      Game: 1462416500
+      GameOver: 1462416500
       Get redy: -2081892219
       Over: 1468465052
       Right-tap: -1078157086
