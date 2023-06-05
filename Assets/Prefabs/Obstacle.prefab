@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11172ce1224376d49853e6f115efd10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 5
 --- !u!1 &7200069420967758966
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,6 +84,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7200069420967758921}
   - component: {fileID: 7200069420967758920}
+  - component: {fileID: 2238159070397306718}
   m_Layer: 0
   m_Name: rod (1)
   m_TagString: Column
@@ -158,6 +159,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2238159070397306718
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200069420967758966}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.21840596, y: -0.05040157}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.620062, y: 2.31}
+    newSize: {x: 10.620062, y: 2.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.18325, y: 1.066766}
+  m_EdgeRadius: 0
 --- !u!1 &7200069421717518448
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +280,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0740149, y: -0.015394509}

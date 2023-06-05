@@ -192,48 +192,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blackfish
-      rect:
-        serializedVersion: 2
-        x: 1014
-        y: 1364
-        width: 164
-        height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ba458a534fb34a4495fd7e598ff9bf7
-      internalID: -1030938929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tappy_fish_ui_elements_4
-      rect:
-        serializedVersion: 2
-        x: 1026
-        y: 1354
-        width: 26
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 247bc5db97f5ef94b82b3225273294c9
-      internalID: 1884979502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: gold
       rect:
         serializedVersion: 2
@@ -292,90 +250,6 @@ TextureImporter:
       bones: []
       spriteID: 6a288020878aaa042bc0d1ed2fcc4227
       internalID: -1082001586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: upkey
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 1161
-        width: 105
-        height: 137
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4f66a7ecaa0b394cb4d0604a275a657
-      internalID: 1404317366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tappy_fish_ui_elements_9
-      rect:
-        serializedVersion: 2
-        x: 1014
-        y: 1054
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8edbcfcc33cc82f47aa824a183cd6af8
-      internalID: -811956608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tappy_fish_ui_elements_10
-      rect:
-        serializedVersion: 2
-        x: 1073
-        y: 1069
-        width: 14
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9069c09d978e37044a92a5f35d2e3773
-      internalID: -544436083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tappy_fish_ui_elements_11
-      rect:
-        serializedVersion: 2
-        x: 1108
-        y: 1057
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68ed996fff9a3614b8adccb5a9f55c71
-      internalID: 297893988
       vertices: []
       indices: 
       edges: []
@@ -444,34 +318,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right-tap
+      name: Tap
       rect:
         serializedVersion: 2
-        x: 786
-        y: 887
-        width: 185
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60483064b59bef845bbdcc8663a58d84
-      internalID: -1078157086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: click
-      rect:
-        serializedVersion: 2
-        x: 1029
+        x: 779
         y: 871
-        width: 142
-        height: 183
+        width: 627
+        height: 627
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,27 +334,6 @@ TextureImporter:
       bones: []
       spriteID: 918dc0335c13c494bacc0de9e5a72353
       internalID: -579692943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: left-tap
-      rect:
-        serializedVersion: 2
-        x: 1223
-        y: 887
-        width: 184
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf060bcc22572ec4dabe26b0b77bd6c8
-      internalID: 1870167940
       vertices: []
       indices: 
       edges: []
@@ -694,11 +526,11 @@ TextureImporter:
       Over: 1468465052
       Right-tap: -1078157086
       ScoreTable: -4670129
+      Tap: -579692943
       Tappy: 592063258
       background: -386204198
       blackfish: -1030938929
       bronze: 170502823
-      click: -579692943
       gold: 705042945
       ground: 1327977602
       iron: 91526635

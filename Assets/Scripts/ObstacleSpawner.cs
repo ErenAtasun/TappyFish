@@ -10,34 +10,30 @@ public class ObstacleSpawner : MonoBehaviour
     public float maxY;
     public float minY;
     float randomY;
-
     public void InstantiateObstacle()
     {
         randomY = Random.Range(minY, maxY);
         GameObject newObstacle = Instantiate(obstacle);
         newObstacle.transform.position = new Vector2(transform.position.x, randomY);
     }
-    
-    
+
     void Start()
     {
-        InstantiateObstacle();
-
+        //InstantiateObstacle();
     }
 
     
     void Update()
     {
-        if (GameManager.gameOver == false)
+        if (GameManager.gameOver == false && GameManager.gameStarted == true)
         {
             timer += Time.deltaTime;
-            if (timer>= maxTime)
+
+            if (timer >= maxTime)
             {
                 InstantiateObstacle();
-                timer=0;
+                timer = 0;
             }
-            
-        }
-
+        } 
     }
 }
